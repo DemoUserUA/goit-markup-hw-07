@@ -1,0 +1,10 @@
+@media screen and (max-width: 1199px) {
+    .work-section {
+        display: none;
+    }
+
+     .features-item-link {
+    display: none;
+    }
+}
+    
