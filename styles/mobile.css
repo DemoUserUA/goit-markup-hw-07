@@ -1,7 +1,23 @@
+@media screen and ( min-width: 320px) and ( max-width: 427px){
+    .mob-menu-address-link-mail > .address-link {
+    font-size: 28px;
+}
+}
+
+@media screen and ( min-width: 428px){
+    .mob-menu-address-link-mail > .address-link {
+    font-size: 35px;
+}
+}
+    
 
 @media screen  and (min-width: 480px) {
     .container {
         max-width: 428px;
+    }
+
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
     }
 
     .customer-soc-item {

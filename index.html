@@ -32,9 +32,9 @@
                     <a class="link nav-list-link" href="">Contacts</a>
                 </li>
             </ul>
-            <button type="button"  class="memu-mobile-button">
+            <button type="button" data-menu-open class="memu-mobile-button">
                 <svg class="memu-mobile-svg" width="32" height="22">
-                    <use href="./images/symbol-defs.svg#icon-Vector-burger"></use>
+                    <use href="./images/symbol-defs.svg#icon-hamburger"></use>
                 </svg>
             </button>
         </nav>
@@ -47,16 +47,76 @@
        </div>
     </address>
 </div>
+<div class="mob-menu is-hidden" data-menu>
+    <div class="container container-mini" >
+           <div>
+                <button type="button" data-menu-close class="mob-menu-modal-close">
+                    <svg class="mob-menu-modal-close-icon" >
+                        <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                    </svg>
+                </button>
+                <nav>
+                    <ul class="list mob-menu-list mob-menu-list-page">
+                            <li class="link-item">
+                                <a class="link mob-menu-list-link" href="./index.html">Studio</a>
+                            </li>
+                            <li class="link-item">
+                                <a class="link mob-menu-list-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="link-item">
+                                <a class="link mob-menu-list-link" href="">Contacts</a>
+                            </li>
+                     </ul>
+                </nav>
+           </div>
+            <div>
+                <ul class="list mob-menu-list-links">
+                    <li class="mob-menu-address-link-mail"><a class="link address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li class="mob-menu-address-link-tell"><a class="link address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mob-menu-soc-list list">
+                        <li class="mob-menu-soc-item">
+                            <a href="" class="mob-menu-soc-link link">
+                                <svg class="mob-menu-soc-icon" width="24" height="24">
+                                     <use href="./images/symbol-defs.svg#icon-instagram-2" ></use>
+                                 </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-soc-item">
+                            <a href="" class="mob-menu-soc-link link">
+                                <svg class="mob-menu-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs.svg#icon-twitter-1" ></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="mob-menu-soc-item">
+                            <a href="" class="mob-menu-soc-link link">
+                                <svg class="mob-menu-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs.svg#icon-facebook-1" ></use>
+                                </svg>
+                            </a>
+                         </li>
+                        <li class="mob-menu-soc-item">
+                            <a href="" class="mob-menu-soc-link link">
+                                <svg class="mob-menu-soc-icon" width="24" height="24">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin-1" ></use>
+                                </svg>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+    </div>
+</div>
 </header>
 <!--Main-->
 <main>
 <!--Section 1-->
-<!-- <section class="hero">
+<section class="hero">
     <div class="container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" data-modal-open class="hero-btn">Order Service</button>
     </div>
-</section> -->
+</section>
 
 <!--Section 2-->
 <section class="features-section">
@@ -404,7 +464,7 @@
         </div>
    </div>
 </footer>
-<!-- <div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button type="button" data-modal-close class="modal-close">
             <svg class="modal-close-icon" >
@@ -480,7 +540,8 @@
         </form>
         <div class="modal-button-wrap"><button type="submit" class="modal-button"><span class="modal-button-span">Send</span></button></dv >
     </div>
-</div> -->
+</div>
 <script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>
