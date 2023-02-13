@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen  and (min-width: 480px) {
     .container {
         max-width: 428px;
     }
@@ -13,54 +13,5 @@
     padding-bottom: 96px;
     }
 
-    .features-item {
-        width: 100%;
-    }
-    
-    .features-item .features-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    }
-
-    .features-item .features-description {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-
-    .footer {
-    padding-top: 96px;
-    padding-bottom: 96px;
-    }
-
-    .footer-container{
-    flex-wrap: wrap;
-    justify-content: center;
-    }
-    
-    .footer-link {
-    display: flex;
-    justify-content: center;
-    }
-
-    .footer-wrap-description {
-    margin: 0;
-    width: 268px;
-    margin-bottom: 72px;
-    }
-
-    .footer-wrap-media {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 72px;
-    width: 208px;
-    margin-right: 0;
-    }
 
 }
