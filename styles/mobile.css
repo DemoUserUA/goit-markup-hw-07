@@ -1,6 +1,6 @@
 @media screen and ( min-width: 320px) and ( max-width: 427px){
     .mob-menu-address-link-mail > .address-link {
-    font-size: 28px;
+    font-size: 24px;
     }
 
     .footer-subscribe-area {
@@ -9,6 +9,11 @@
 
     .subscribe-button {
     margin-bottom: 0;
+    }
+
+    .mob-menu-soc-list {
+    gap: 0;
+    justify-content:space-between;
     }
 }
 
