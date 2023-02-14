@@ -1,13 +1,26 @@
 @media screen and ( min-width: 320px) and ( max-width: 427px){
     .mob-menu-address-link-mail > .address-link {
     font-size: 28px;
-}
+    }
+
+    .footer-subscribe-area {
+        width: 250px;
+    }
+
+    .subscribe-button {
+    margin-bottom: 0;
+    }
 }
 
 @media screen and ( min-width: 428px){
     .mob-menu-address-link-mail > .address-link {
     font-size: 35px;
-}
+    
+    }
+    
+    .subscribe-button {
+    margin-bottom: 0;
+    }
 }
     
 
@@ -20,6 +33,14 @@
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab.jpg);
     }
 
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab-2x.jpg);
+  }
+  }
+
     .customer-soc-item {
         width: 190px;
     } 
@@ -28,6 +49,8 @@
     padding-top: 107px;
     padding-bottom: 96px;
     }
+   
+
 
 
 }

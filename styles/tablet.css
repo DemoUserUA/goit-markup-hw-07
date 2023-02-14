@@ -8,8 +8,131 @@
          background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     }
 
-    /* .nav-list-page,
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-2x.jpg);
+  }
+  }
+
+    .container{
+    min-width: 768px; 
+    }
+
+    .main-page-container {
+    justify-content: space-between;
+    
+    }
+
+    .nav-page {
+    width: auto;
+    
+    }
+
+    .nav-link {
+    margin-right: 120px;
+    }
+    .nav-list-page,
     .list-link {
     display: flex;
-    } */
+    }
+
+    .nav-list > .link-item {
+    margin-bottom: 0;
+    }
+
+    .nav-list-link {
+    }
+
+    .address-link  {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    }
+
+    .list-link {
+    flex-direction: column;
+    }
+
+    .address-link-tell {
+    padding-top: 24px;
+    padding-bottom: 0;
+    margin: 0;
+    }
+
+    .address-link-mail {
+    padding-top: 0;
+    padding-bottom: 10px;
+    
+    }
+    .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    }
+    
+    .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    }
+
+    .features-item {
+    width: 356px;
+    }
+
+    .features-title {
+    text-align: left;
+    }
+
+    .team-list {
+    row-gap: 56px;
+    column-gap: 24px;
+    }
+
+    .customer-soc-list {
+        column-gap: 24px;
+    }
+
+    .customer-soc-item {
+    width: 168px;
+    }
+
+    .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    }
+
+    .tablet-footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .footer-wrap-description {
+    margin-right: 24px;
+    align-items: start;
+    }
+
+    .footer-media,
+    .footer-subscribe {
+    text-align: left;
+    }
+    
+    .subscribe-button {
+    margin-bottom: 0;
+    }
+
+    .footer-subscribe-area {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+    } 
+
+
+    
+   
 }
