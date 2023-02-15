@@ -149,7 +149,7 @@ margin-right: 40px;
 
 .current {
  position: relative;  
- color: var(--accet-color-secondary);
+ 
 }
 
 .current::after {
