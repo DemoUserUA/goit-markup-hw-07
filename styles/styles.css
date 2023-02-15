@@ -1059,10 +1059,9 @@ border: var(--accet-color);
 fill: #FFFFFF;
 }
 
-.label-checkbox {
+.label-checkbox-text {
 font-family: inherit;
-display: flex;
-align-items: baseline;
+margin-top: 2px;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.33;
